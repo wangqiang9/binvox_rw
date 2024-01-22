@@ -10,6 +10,7 @@ pip install .
 ```
 
 ## Example
+![example](https://github.com/wangqiang9/binvox_rw/blob/main/example.gif)
 ```
 >>> import binvox_rw
 >>> with open('chair.binvox', 'rb') as f:
