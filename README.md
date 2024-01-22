@@ -13,7 +13,7 @@ pip install .
 ![example](https://github.com/wangqiang9/binvox_rw/blob/main/example.gif)
 ```
 >>> import binvox_rw
->>> with open('chair.binvox', 'rb') as f:
+>>> with open('./data/model.binvox', 'rb') as f:
 ...     model = binvox_rw.read_as_3d_array(f)
 >>> model.dims
 [32, 32, 32]
