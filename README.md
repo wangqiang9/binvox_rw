@@ -25,7 +25,12 @@ pip install .
 
 ## Convert to video
 ```
-python example/convert_to_video.py
+pip install matplotlib
+pip install moviepy
+```
+
+```
+python convert_to_video.py
 ```
 
 ## Datasets Download
